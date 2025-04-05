@@ -21,9 +21,11 @@ defineProps({
   collapsed: { type: Boolean, default: false }
 });
 
-// Danh sách component mặc định với icon
 const components = ref([
-  { name: 'Grid', icon: '📏' },
+  { name: 'Grid1', icon: '📏' },
+  { name: 'Grid2', icon: '📐' },
+  { name: 'Grid3', icon: '📏' },
+  { name: 'Grid4', icon: '📐' },
   { name: 'Button', icon: '🔘' },
   { name: 'Input', icon: '📝' },
   { name: 'Textarea', icon: '📑' },
